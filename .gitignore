@@ -1,0 +1,33 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Common generated output
+build/
+dist/
+out/
+coverage/
+__pycache__/
+*.py[cod]
+node_modules/
+venv/
+.venv/
